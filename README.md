@@ -1,4 +1,6 @@
 # Nests
+[![Status overview badge](../../blob/badges/.github/badges/autograding/badge.svg)](#results)
+
 
 #### 1. 2D Array
 * Given the 2D Array below, **loop** through the arrays to print the values.
@@ -27,27 +29,47 @@ let board = [
   ```
 * 3.3 Without changing the previous code, add another ingredient - let's add `ginger`. 
 * 3.4 Change the value of ingredient `ginger` to `grated ginger`. 
-* 3.5 Write a method in the recipe object called `showIngredients` that prints the value of each ingredient in the ingredients object. 
+* 3.5 Write a method in the recipe object called `showIngredients` that prints the value of each ingredient in the ingredients object.
 
-
-[//]: # (autograding info start)
+[//]: # (autograding info start)
 ## Results
-  [![Results badge](../../blob/badges/.github/badges/autograding/badge.svg)](https://github.com/DigitalCareerInstitute/PB-datastructure-nesting/actions)
-  
-  [Results Details](https://github.com/DigitalCareerInstitute/PB-datastructure-nesting/actions)
-  
-  ### Debugging your code
-  > [reading the test outputs](https://github.com/DCI-EdTech/autograding-setup/wiki/Reading-test-outputs)
-  
-  There are two ways to see why tasks might not be completed:
-  #### 1. Running tests locally
-  - Run `npm install`
-  - Run `npm test` in the terminal. You will see where your solution differs from the expected result.
-  
-  #### 2. Inspecting the test output on GitHub
-  - Go to the [Actions tab of your exercise repo](https://github.com/DigitalCareerInstitute/PB-datastructure-nesting/actions)
-  - You will see a list of the test runs. Click on the topmost one.
-  - Click on 'Autograding'
-  - Expand the item 'Run DCI-EdTech/autograding-action@main'
-  - Here you see all outputs from the test run
-[//]: # (autograding info end)
+
+
+### 1. Loop 2D Array
+
+|                 Status                  | Check                                                                                    |
+| :-------------------------------------: | :--------------------------------------------------------------------------------------- |
+| ![Status](../../blob/badges/.github/badges/autograding/status0.svg) | Loop through all subarrays |
+
+### 2. Create Object Doggo
+
+|                 Status                  | Check                                                                                    |
+| :-------------------------------------: | :--------------------------------------------------------------------------------------- |
+| ![Status](../../blob/badges/.github/badges/autograding/status1.svg) | encountered a declaration exception |
+
+### 3. Object recipe
+
+|                 Status                  | Check                                                                                    |
+| :-------------------------------------: | :--------------------------------------------------------------------------------------- |
+| ![Status](../../blob/badges/.github/badges/autograding/status2.svg) | encountered a declaration exception |
+
+
+
+[Results Details](https://github.com/DCI-TrialLessons/TL-AT-PB-datastructure-nesting/actions)
+
+### Debugging your code
+> [reading the test outputs](https://github.com/DCI-EdTech/autograding-setup/wiki/Reading-test-outputs)
+
+There are two ways to see why tasks might not be completed:
+#### 1. Running tests locally
+- Run `npm install`
+- Run `npm test` in the terminal. You will see where your solution differs from the expected result.
+
+#### 2. Inspecting the test output on GitHub
+- Go to the [Actions tab of your exercise repo](https://github.com/DCI-TrialLessons/TL-AT-PB-datastructure-nesting/actions)
+- You will see a list of the test runs. Click on the topmost one.
+- Click on 'Autograding'
+- Expand the item 'Run DCI-EdTech/autograding-action@main'
+- Here you see all outputs from the test run
+
+[//]: # (autograding info end)
