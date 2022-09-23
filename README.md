@@ -17,7 +17,7 @@ let board = [
 * 2.3 Access the second element of the doggo's favorite foods. 
 * 2.4 Add a method that loops through and print all the doggo's favorite food.
 
-#### 3. 
+#### 3. Recipes
 * 3.1 Create an object called recipes.
 * 3.2 Inside this object, you should create another object for ingredients and store ingredients as properties butter, sugar, flour etc. Each property should have a string as its value. 
 * 3.3 Without changing the previous code, add another ingredient - let's add `ginger`. 
